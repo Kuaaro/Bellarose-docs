@@ -3,7 +3,7 @@ Dokument opisuje aktualny założenia, jak przebiega walka pomiędzy 2 graczami 
 
 # Cel walki
 * Zbicie zdrowia przywódzcy przeciwnika do 0
-* Uniemożliwienie przeciwnikowi zagranie kart (być może)
+* Uniemożliwienie przeciwnikowi zagrania kart (pokonanie wszystkich żołnierzy)
 
 # Opis rozgrywki
 ## Przed bitwą
@@ -15,14 +15,14 @@ kształt diamentu:
 * Tył (Rearguard)
 
 albo kształt kwadratu:
-* Lewy Przód (Left Vanguard)
-* Prawy Przód (Right Vanguard)
-* Lewy Tył (Left Rearguard)
-* Prawy Tył (Right Rearguard)
+* Górny Przód (Top Vanguard)
+* Dolny Przód (Bottom Vanguard)
+* Górny Tył (Top Rearguard)
+* Dolny Tył (Bottom Rearguard)
 
 Żołnierze zyskują dodatkowe atrybuty w zależności od pozycji swojej i obecności/braku innych żołnierzy (umiejętności pasywne).
 
-Pomiędzy żołnierzami znajduje się przywódzca. Zbicie zdrowia przywódzcy do 0 jest warunkiem wygranej. Równierz może posiadać zdolności pasywne.
+Pomiędzy żołnierzami znajduje się przywódzca. Również może posiadać zdolności pasywne.
 
 ## Podczas bitwy
 Walka składa się z nieograniczonej ilości rund, gdzie każda tura dzieli się na zagrywanie kart oraz ich wykonanie.
@@ -30,7 +30,7 @@ Walka składa się z nieograniczonej ilości rund, gdzie każda tura dzieli się
 ### Zagrywanie kart
 Na początku gracze dobierają minimalną liczbę kart do ręki (liczba do ustalenia).
 
-Podczas etapu zagrywania gracze zagrywają 1 kartę na zmianę.
+Podczas etapu zagrywania gracze zagrywają po 1 karcie na zmianę.
 
 Zagrane karty zostają "przyczepione" do poszczególnych żołnierzy. Większość posiada efekty które wykonują się dopiero podczas fazy wykonywania.
 Zagrane karty kosztują określoną ilość energii, która jest zabierana od żołnierzy. Karty mogą zostać nadpisane poprzez zagranie na żołnierza innej karty, jednak wydana już energia nie zostaje zwrócona.
@@ -48,3 +48,6 @@ Jeżeli gracz:
 przeciwny gracz może zagrać do 2 kart, po czym następuje faza wykonania.
 
 ### Wykonywanie kart
+Karty są, na ogół, wykonywane w sekwencji od pierwszej do ostatniej zagranej karty.
+Wykonanie karty kosztuje dodatkową energię od przypisanego do karty żołnierza. Jeżeli żołnierz ma za mało energii, karta nie będzie wykonana.
+Karty mogą wpływać na inne karty, lub ich efekt może zależeć od innych kart.
